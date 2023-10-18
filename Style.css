@@ -1,26 +1,35 @@
 body{
     background-color: rgb(19, 19, 19);
+    display:grid;
 }
 nav {
-    width: 30%;
+    /*width: 30%;*/
     margin: auto;
 }
 header{
     background-color: rgb(77, 77, 77);
     height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
 }
 nav ul{
     list-style-type: none;
     padding-top: 13px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
 }
 
 nav ul li {
     display: inline;
     padding: 30px;
+    text-align: center;
 }
 *{
     color:rgb(64, 250, 250);
 }
 .Home{
     height: 50px;
+}
+th{
+    padding: 40PX
 }
