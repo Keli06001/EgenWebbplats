@@ -1,41 +1,41 @@
-<!DOCTYPE html>
-<html lang="sv">
-	<head>
+<!DOCTYPE html> <!--Sätter dokumenttypen till HTML5-->
+<html lang="sv"> <!--Visar att dokumentet skrivs på svenska, detta används för exempelviss översättningsprogram så att de vet att dokumentet är skrivet på svenska-->
+	<head> <!--head innehåller metadata om dokumentet, som t,ex titel och stylesheet-->
 		<meta charset="UTF-8"> <!--meta charset="UTF-8" gör så att du berättar för din webbläsare att använda utf-8-->
-		<title>Kevin Lindqvist</title> 
-		<link href="Style.css" rel="stylesheet">
-		<link href="https://www.pool.fi/sites/default/files/styles/blog_full/public/apa.jpg?itok=7L58A6Hd" rel="icon" type="image/x-icon">
-	</head>
-	<body>
-		<header>
-			<a href="index.html"><img src="https://www.pool.fi/sites/default/files/styles/blog_full/public/apa.jpg?itok=7L58A6Hd" alt="apa" class="Home"></a>
-			<nav>
-				<ul>
-					<li>
-						<a href="ommig.html">OM MIG</a>
-					</li>
+		<title>Kevin Lindqvist</title> <!--Anger sidans titel som man kan se på hemsidans flik-->
+		<link href="Style.css" rel="stylesheet"> <!--Länk till en extern css flik för att ändra sidans utseende-->
+		<link href="https://www.pool.fi/sites/default/files/styles/blog_full/public/apa.jpg?itok=7L58A6Hd" rel="icon" type="image/x-icon"> <!--Sätter ditt en bild på hemsidans flik-->
+	</head> <!--Avslutar head-->
+	<body> <!--Här startar kroppen av hemsidan, här finns det mästa av hemsidans innehåll som man kan se i mitten av hemsidan oftast. Body är det största delen av hemsidan-->
+		<header> <!--header är högst upp på hemsidan och här brukar man ha saker som loga och navigering-->
+			<a href="index.html"><img src="https://www.pool.fi/sites/default/files/styles/blog_full/public/apa.jpg?itok=7L58A6Hd" alt="apa" class="Home"></a> <!--a href gör så att det är en länk till index.html, och img src gör så att det som är en länk är en bild som defineras inom "" de tagarna-->
+			<nav> <!--Här är navigeringen av sidan, här placerar jag länkar till andra sidor inom min hemsida-->
+				<ul> <!--Här har jag en oorderad lista som jag placerar mina länkar i-->
+					<li> <!--Här har jag ett listelement som innehåller en länk till en av mina andra sidor inom hemsidan-->
+						<a href="ommig.html">OM MIG</a> <!--här har jag länken till min ena sida inom min hemsida, det kommer att stå OM MIG och när man klickar på den kommer man komma till min ommig.html-->
+					</li> <!--Här avslutar jag mitt listelement-->
 					<li>
 						<a href="Kevin.html">KEVIN LINDQVIST</a>
 					</li>
 					<li>
 						<a href="intresse.html">INTRESSE</a>
 					</li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<img src="https://static.vecteezy.com/system/resources/previews/020/152/686/non_2x/abstract-blue-marble-patterns-wood-texture-watercolor-marble-patterns-background-trendy-textiles-fabrics-wrappers-aqua-ink-painting-on-water-vector.jpg" alt="mönster" class="mstr">
-			<h1>Huvudmeny</h1>
-			<p>Detta är startsidan på min webbplats</p>
-			<h2>GAME OF THE YEAR</h2>
-			<table>
-				<tr>
-					<th>2020</th>
+				</ul> <!--Här avslutar min oorderade lista-->
+			</nav> <!--Här avslutar jag mitt navigeringsfällt-->
+		</header> <!--Här avslutar jag min header-->
+		<main> <!--Huvuddelen av webbsidans innehåll-->
+			<img src="https://static.vecteezy.com/system/resources/previews/020/152/686/non_2x/abstract-blue-marble-patterns-wood-texture-watercolor-marble-patterns-background-trendy-textiles-fabrics-wrappers-aqua-ink-painting-on-water-vector.jpg" alt="mönster" class="mstr"> <!--Här har jag en bild--> 
+			<h1>Huvudmeny</h1> <!--Min första rubrik-->
+			<p>Detta är startsidan på min webbplats</p> <!--Inom p taggarna har jag text som synns på hemsidan-->
+			<h2>GAME OF THE YEAR</h2> <!--Min andra rubrik-->
+			<table> <!--Här startar jag en tabbel-->
+				<tr> <!--En horizontel rad i tabellen-->
+					<th>2020</th> <!--Block inom tr raden, th skiljer sig från td genom att vara huvud blocken. Detta gör det lättare för programeraren att skilja sig åt vilka som är underst och vilka som är överst-->
 					<th>2021</th>
 					<th>2022</th>
-				</tr>
-				<tr>
-					<td>THE LAST OF US PART 2</td>
+				</tr> 
+				<tr> <!--Ny horizontel rad i tabellen-->
+					<td>THE LAST OF US PART 2</td> <!--Ett block inom tr raden-->
 					<td>IT TAKES TWO</td>
 					<td>ELDEN RING</td>
 				</tr>
@@ -54,15 +54,15 @@
 					<td>METROID DREAD</td>
 					<td>STRAY</td>
 				</tr>
-			</table>
-		</main>
+			</table> <!--Här avslutas tabellen-->
+		</main> <!--Här avslutas main-->
 
-		<footer>
+		<footer> <!--Här börjar footer, vilket är delen längst ner på hemsidan, har brukar man oftast ha saker som kontaktuppgifter och upphovsrättsinformation-->
             <h3>Namn:</h3>
             <p>Kevin Lindqivst</p>
             <h4>Klass:</h4>
             <p>TE22B</p>
-			<a href="https://www.vaxjo.se/sidor/forskola-och-skola/gymnasieskola/teknikum.html">SKOLA</a>
-		</footer>
-	</body>
-</html>
+			<a href="https://www.vaxjo.se/sidor/forskola-och-skola/gymnasieskola/teknikum.html">SKOLA</a> <!--Här är en länk till teknikums hemsida-->
+		</footer> <!--Här avslutas footer-->
+	</body> <!--Här avslutas body-->
+</html> <!--Här avslutas HTML dokumentet-->

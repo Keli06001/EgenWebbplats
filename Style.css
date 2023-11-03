@@ -1,71 +1,70 @@
-body{
-    background-color: rgb(19, 19, 19);
-    display:grid;
-    grid-template-rows: 50px auto 228px;
-    color: aliceblue;
-    height: 98vh;
+body{ /*Allt inom body taggarna ändrar body*/
+    background-color: rgb(19, 19, 19); /*Ändrar bakgrunds färgen till svart*/
+    display: grid; /*Skapar ett rutnät till body*/
+    grid-template-rows: 50px auto 228px; /*Specificerar hur många och höjden av raderna i rutnätet*/
+    color: aliceblue; /*Ändrar textfärgerna inom body till vit*/
+    height: 98vh; /*Ändrar höjden på body till 98vh vilket är 98% av höjden av hemsidan*/
 }
-nav {
-    width: 70%;
+nav{ /*Allt imom nav taggarna ändrar nav*/
+    width: 70%; /*Gör bredden för nav till 70% av sidan*/
 }
-header{
-    background-color: rgb(77, 77, 77);
-    height: 50px;
-    display: grid;
-    grid-template-columns: 1fr 6fr;
+header{ /*Allt inom taggarna ändrar header*/
+    background-color: rgb(77, 77, 77); /*Ändrar bakgrundsfärgen för header till grå*/
+    height: 50px; /*Definerar höjden för header till 50 px vilket är 50/96 av en inch*/
+    display: grid; /*Skapar ett rutnät till header*/
+    grid-template-columns: 1fr 6fr; /*Specificerar hur många och bredden av columnerna i rutnätet*/
 }
-nav ul{
-    list-style-type: none;
+nav ul{ /*Allt inom taggarna ändrar ul som ligger inom nav*/
+    list-style-type: none; /*Tar bort nummer frammför länkarna*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
 }
-
-nav ul li {
-    text-align: center;
+nav ul li{ /*Allt inom taggarna ändrar li som ligger inom ul som ligger inom nav*/
+    text-align: center; /*Centrerar texten*/
 }
-.Home{
+.Home{ /*Ändrar klassen vid namn Home*/
     height: 50px;
-    width: fit-content;
+    width: fit-content; /*Sätter bredden till det minsta värdet på dess innehåll och tillåter elementet att expandera baserat på dess överordnade behållares bredd.*/
 }
 th{
-    padding: 40px
+    padding: 40px /*Skapar 40px av utrymme rund innehållet av elementet, innom definerade gränser*/
 }
-a:link {
-    color: aqua;
+a:link{ /*Ändrar alla länkar imom a*/
+    color: aqua; /*Ändrar färgen till alla länkar inom a till aqua*/
 }
-a:link, a:visited {
-    color: aqua;
-    text-decoration: none;
+a:link, a:visited{ /*Ändrar både a:link och a:visited*/
+    color: aqua; 
+    text-decoration: none; /*Tar bort text dekoration, som i detta fall är understräck*/
 }
-a:hover {
-    color: red;
+a:hover{ /*Ändrar a när man håller musen över elementet*/
+    color: red; 
 }
-table,th,td{
-    border: 1px solid rgb(255, 255, 255);
-    border-collapse:collapse;
+table,th,td{ /*Ändrar table,th och td*/
+    border: 1px solid rgb(255, 255, 255); /*Skapar en ifylld gräns runt elementen med färgen vit*/
+    border-collapse:collapse; /*Tar bort tjockleken av gränsen*/
  }
  footer{
     background-color:  rgb(77, 77, 77);
-    max-height: 24vh;
+    max-height: 24vh; /*Gör så att höjden inte bestiger 24vh*/
  }
  h2{
-    font-size:1.5cm ;
+    font-size:1.5cm; /*Ändrar storleken av texten till 1,5cm*/
  }
  h3{
     font-size: 1.2pc;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif /*Ändrar utseendet av texten*/
 }
 h4{
     font-size: 1.2pc;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-tr:nth-child(3) { 
+tr:nth-child(3) { /*Ändrar det tredje tr elementet*/
     background-color:aqua; 
 }
 tr:nth-child(3) { 
     color:rgb(0, 0, 0); 
 }
-tr:nth-child(1) { 
+tr:nth-child(1) { /*Ändrar det första tr elementet*/
     background-color: rgb(255, 0, 0);
 }
 tr:nth-child(2) { 
@@ -74,7 +73,7 @@ tr:nth-child(2) {
 tr:nth-child(4) { 
     background-color: rgb(0, 0, 0);
 }
-tr:nth-child(5) { 
+tr:nth-child(5) {  
     background-color:aqua;  
 }
 tr:nth-child(5) { 
@@ -109,11 +108,11 @@ th:nth-child(1) {
 }
 .mstr{
     max-height: 12cm;
-    float: right;
+    float: right; /*Flyttar elementet till höger*/
 }
 .fluga{
-    border-style: dashed;
+    border-style: dashed; /*Gör gränsen sträckad*/
 }
 .sverige{
-    margin-top: 35px;
+    margin-top: 35px; /*Skapar 35px utrymme rund elementet, utanför definerade gränser*/
 }
